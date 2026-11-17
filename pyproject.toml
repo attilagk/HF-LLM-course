@@ -1,0 +1,13 @@
+[project]
+name = "hf-llm-course"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.2.0",
+    "evaluate>=0.4.6",
+    "huggingface-hub>=2.4.0",
+    "marimo>=0.25.2",
+    "torch>=2.15.0",
+    "transformers[sentencepiece]>=5.23.0",
+]
